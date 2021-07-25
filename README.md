@@ -1,4 +1,4 @@
-# Nomflix
+# wonflix
 
 Learning React and ES^ by building a Movie Discovery App.
 
