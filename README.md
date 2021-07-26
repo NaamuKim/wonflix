@@ -1,6 +1,6 @@
 # wonflix
 
-Learning React and ES^ by building a Movie Discovery App.
+Practicing React and Es6 by building Movie App
 
 ## Screens
 
@@ -20,3 +20,8 @@ Learning React and ES^ by building a Movie Discovery App.
 - [x] Movie Detail
 - [x] Search Movies
 - [x] Search Tv
+
+## Function
+
+- [x] Loader
+- [x] no info and not found error
