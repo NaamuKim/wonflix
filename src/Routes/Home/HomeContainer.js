@@ -1,6 +1,7 @@
 import React from "react";
 import HomePresenter from "./HomePresenter";
 import { moviesApi } from "api";
+import Message from "Components/Message";
 
 export default class homeState extends React.Component {
 	state = {
@@ -9,7 +10,7 @@ export default class homeState extends React.Component {
 		popular: null,
 		loading: true,
 		error: null,
-	};	
+	};
 
 	async componentDidMount() {
 		try {
@@ -22,6 +23,7 @@ export default class homeState extends React.Component {
 			const {
 				data: { results: popular },
 			} = await moviesApi.popular();
+
 			this.setState({
 				nowPlaying,
 				upcoming,
