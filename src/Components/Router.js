@@ -10,7 +10,6 @@ import TV from "Routes/TV/index";
 import Search from "Routes/Search/index";
 import Detail from "Routes/Detail/index";
 import Header from "Components/Header";
-import Section from "Components/Section";
 
 const Routers = () => (
 	<Router>
