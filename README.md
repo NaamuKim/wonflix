@@ -25,3 +25,8 @@ Practicing React and Es6 by building Movie App
 
 - [x] Loader
 - [x] no info and not found error
+
+## Challenges
+
+- [ ] IMDB Link
+- [ ] Tabs inside of Movie/ Show Details(youtube video,production company)
