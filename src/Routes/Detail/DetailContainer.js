@@ -38,6 +38,7 @@ export default class detailState extends React.Component {
 			} else {
 				({ data: result } = await tvApi.showDetail(parsedId));
 				({ data: externalId } = await tvApi.externalId(parsedId));
+				console.log(result);
 			}
 		} catch {
 			this.setState({ error: "Can't find anything." });

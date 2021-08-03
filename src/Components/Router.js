@@ -1,6 +1,6 @@
 import React from "react";
 import {
-	BrowserRouter as Router,
+	HashRouter as Router,
 	Redirect,
 	Route,
 	Switch,
@@ -21,7 +21,6 @@ const Routers = () => (
 				<Route path="/search" exact component={Search} />
 				<Route path="/movie/:id" component={Detail} />
 				<Route path="/tv/:id" component={Detail} />
-
 				<Redirect from="*" to="/" />
 			</Switch>
 		</>
