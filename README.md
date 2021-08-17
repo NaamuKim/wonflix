@@ -2,6 +2,8 @@
 
 Practicing React and Es6 by building Movie App
 
+## https://gracious-thompson-c28252.netlify.app
+
 ## Screens
 
 - [x] Home
@@ -28,5 +30,5 @@ Practicing React and Es6 by building Movie App
 
 ## Challenges
 
-- [ ] IMDB Link
-- [ ] Tabs inside of Movie/ Show Details(youtube video,production company)
+- [x] IMDB Link
+- [x] Tabs inside of Movie/ Show Details(youtube video,production company)
